@@ -1,5 +1,5 @@
 # Easytech Group Website
-Semaine du 24 au 28 juin 2024
+Semaine du 01 au 05 juillet 2024
 
 
 # Titre du projet
