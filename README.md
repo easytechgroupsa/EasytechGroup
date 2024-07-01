@@ -67,7 +67,7 @@ pour les templates de cognizant et cognizant carrière.
 
 
 ## Taux d'avancement
-Le travail effectué est évalué à un taux de 70% car il manque de travailler sur le template de la plateforme
+Le travail effectué est évalué à un taux de 98% car il manque de travailler sur le template de la plateforme
 de vente.
 
 
