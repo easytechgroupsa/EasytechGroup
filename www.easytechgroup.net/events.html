@@ -68,10 +68,6 @@
 
 <body class="home js-template-home" id="js-page-4ca53f2a-268c-4c79-bf32-69902955b93e" data-id="1271">
 
-    
-
-
-    
     <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
 
     <header class="header" id="header">
@@ -268,23 +264,21 @@
         <div class="bg-mesh-1"></div>
     </header>
 
-    <main id="content">
-
-        
-        <section class="hero hero-shapes gradient-1 shapes-1 ">
+    <main id="content">   
+        <section class="hero hero-shapes gradient-2 shapes-1 bg-blue">
             <div class="container-right-edge">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="wrapper">
                             <div class="text">
-                                <h1 class="hero-heading">Citoyenneté mondiale</h1>
-                                <p>Mettez vos talents au service de l&#x27;am&#xE9;lioration du quotidien de tous. Quand les centres d&#x27;int&#xE9;rets de nos collaborateurs rencontrent la force de frappe de Cognizant, tout le monde en ressort gagnant.</p>
+                                <h1 class="hero-heading">Évènements</h1>
+                                <p>Rencontrez notre &#xE9;quipe Cognizant lors d&#x27;un &#xE9;v&#xE8;nement . Entre les salons de recrutement, les ateliers de d&#xE9;veloppement de comp&#xE9;tences,  les &#xE9;v&#xE8;nements de networking, nous cherchons continuellement  &#xE0; entrer en contact avec des professionnels talentueux comme vous&#xA0;!&#xA0;&#xA0;</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-gradient-shapes">
-                            <picture><source srcset="static/imgs/image-i.webp" type="image/webp"><img alt="un groupe de personnes posant pour une photo" class="img-hero img-fluid" fetchpriority="high" height="800" src="static/imgs/image-i.webp" width="800"></picture>
+                            <picture><source srcset="static/imgs/1710487933107.webp" type="image/webp"><img alt="un groupe de personnes posant pour une photo" class="img-hero img-fluid" fetchpriority="high" height="800" src="static/imgs/1710487933107.webp" width="800"></picture>
                         </div>
                     </div>
                 </div>
@@ -293,214 +287,114 @@
     
     
         
+    <div class="container">
+            <div class="event-search-form">
+            <button class="event-search-form-toggle d-lg-none" data-bs-toggle="collapse" data-bs-target="#event-filter" aria-expanded="false" aria-controls="event-filter">
+                Filtrer les &#xE9;v&#xE8;nements
+                <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-down"></use></svg>
+            </button>
     
+            <form class="collapse js-event-search-form" id="event-filter">
+                <fieldset>
+                    <legend class="visually-hidden">Filtrer les &#xE9;v&#xE8;nements</legend>
+                    <div class="event-filter-grid">
+    
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label class="form-label visually-hidden" for="l-search">Mots-cl&#xE9;s</label>
+                                <input class="form-control" id="l-search" name="search" placeholder="Rechercher des &#xE9;v&#xE9;nements" type="search">
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="visually-hidden" for="l-category">
+                                Cat&#xE9;gorie
+                                <span class="required">*</span>
+                            </label>
+                            <select class="form-select" name="category" id="l-category"  autocomplete="off" data-bs-placeholder="Cat&#xE9;gorie">
+                                <option value="" selected>Cat&#xE9;gorie</option>
+                                    <option value="campus">Campus</option>
+                            </select>
+                        </div>
+    
+    
+                    </div>
+    
+                    <button onclick="dataLayer.push({'event': 'eventsfilter', 'eventsfilterinfo': {'keyword': this.form.elements['search'].value, 'location': this.form.elements['location'].value, 'category': this.form.elements['category'].value, 'date': this.form.elements['startdate'].value }});" class="btn btn-primary" type="submit">
+                        Filtrer les &#xE9;v&#xE8;nements
+                        <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-right"></use></svg>
+                    </button>
+    
+                </fieldset>
+            </form>
+        </div>
+    
+    
+        
+        <div class="row grid event-listing" id="results">
+                
+    <div class="col-md-6">
+        <div class="card card-event">
+    
+                <div class="card-image">
+                    <picture>
+                        <source srcset="https://cdn.fs.beamery.com/output=secure:true/62s987SnSTytraMcQ4Um">
+                        <img class="img-fluid" src="https://cdn.fs.beamery.com/output=secure:true/62s987SnSTytraMcQ4Um" alt="Cognizant Leadership Summit Image" width="600" height="240" loading="lazy">
+                    </picture>
+                </div>
+    
+            <div class="card-body">
+    
+                    <div class="event-date">
+                            <time datetime="2024-08-06 00:00:00Z">mardi, ao&#xFB;t 06, 2024</time>
+                    </div>
+    
+                <h2 class="card-title">Cognizant Leadership Summit</h2>
+    
+                    <p class="card-text">
+                        More than a series of talks, the Cognizant Leadership Summit is an interactive experience of discovery that brings together the brightest and most diverse sophmore students from across the Americas.
+                    </p>
+    
+                <div class="event-meta">
+                            <div class="event-meta-item">
+                                <strong>Time</strong> - 
+    11:00 AM - 4:30 PM                        </div>
+                    <div class="event-meta-item">
+                        <strong>Format</strong> - Virtual
+                    </div>
+                </div>
+    
+                    <a class="btn btn-primary" href="https://pages.beamery.com/Cognizant/page/cognizant-leadership-summit" target="_blank" rel="noopener">
+                        Voir plus de d&#233;tails
+                        <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-right"></use></svg>
+                    </a>
+            </div>
+        </div>
+    </div>
+    
+    
+        </div>
+        
+    
+    </div>
+    
+        
     <div class="js-content-blocks content-blocks-wrapper">
                     
         <section class="section-intro" >
             <div class="container">
                 <div class="row ">
                     <div class="col-12 ">
-                        <h2 class="intro-text-heading">Chez Cognizant, l'ESG n'est pas seulement un ensemble de bonnes actions, c'est un impératif. </h2>
+                        <h2 class="intro-text-heading">Conseils pour vous préparer à un évènement de recrutement</h2>
                         <div class="cms-content">
-                            <p>Nous avons pour objectif d'améliorer le quotidien, ce qui signifie que nous nous engageons à avoir un impact sur le monde dans lequel nous évoluons et à utiliser notre expertise pour aider nos clients et nos collaborateurs à faire de même. Participez à nos efforts pour créer un monde à faible émission de carbone, plus inclusif et plus équitable.&nbsp;</p>
+                            <p>Vous êtes inscrits à un salon de recrutement et vous vous demandez comment vous y préparer au mieux. Ne vous inquiétez pas, nous sommes là pour vous aider ! Voici deux de nos meilleurs conseils :&nbsp;</p>
+                            <ol>
+                            <li><strong>Menez des recherches sur notre entreprise. </strong>Notre site Carrières est l'endroit idéal pour effectuer des recherches sur nos <a href="../postes-a-pourvoir/index.html" title="Jobs">opportunités </a>de postes et sur l<a href="../notre-quotidien/index.html" title="Le quotidien chez Cognizant">e quotidien chez Cognizant</a>. &nbsp;</li>
+                            <li><strong>Préparez un argumentaire de 30 secondes. </strong>Cette brève présentation de vous-même doit véhiculer vos valeurs personnelles ainsi que vos atouts distinctifs, et permettre d'engager la conversation avec notre équipe.&nbsp;</li>
+                            </ol>
+                            <p>Maintenant, lancez-vous et explorez les opportunités de carrière et la riche culture qui vous attendent chez Cognizant. Nous vous souhaitons bonne chance !&nbsp;</p>
                         </div>
-                        <a class="btn btn-primary" href="poste-a-pouvoir.html">D&#xE9;couvrez nos opportunit&#xE9;s
-                            <svg class="icon-sprite" aria-hidden="true"><use xlink:href="static/imgs/sprite.svg#arrow-right"></use></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-                    
-        <section class="section-image bg-blue" >
-            <div class="container">
-                <div class="row align-items-lg-center ">
-                    <div class="col-md-6 col-lg-7 fade-in">
-                            <a class="js-video video-block" href="https://www.youtube.com/watch?v=oHaR3GLolIQ" aria-label="Lire la vid&#xE9;o: Ambition environnementale">
-                                <picture><source srcset="static/imgs/1683814318567.webp" type="image/webp"><img alt="un groupe de personnes en gilets orange et capuches posant pour une photo" class="img-fluid" height="500" loading="lazy" src="static/imgs/1668057993750.webp" width="750"></picture>
-                                <span class="video-control">
-                                    <span class="visually-hidden">Lire la vid&#xE9;o</span>
-                                    <svg class="icon-sprite" aria-hidden="true"><use xlink:href="static/imgs/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#play"></use></svg>
-                                </span>
-                            </a>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <h2 class="rich-text-heading">Ambition environnementale</h2>
-    
-                        <div class="cms-content">
-                            <p>Nous réduisons notre impact environnemental là où cela importe le plus, car nous n'avons qu'une seule planète et nous devons faire tout notre possible pour la protéger.</p>
-                        </div>
-    
                         
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-                    
-        <section class="section-faq" >
-            <div class="container">
-                <div class="row align-items-center">
-    
-                    <div class="col-lg-4">
-                        
-    <div class="intro-heading row">
-        <div class="col-12 col-md-8">
-            
-            <h2 class="intro-heading-heading">Agir là où cela compte le plus</h2>
-            
-        </div>
-    </div>
-                    </div>
-    
-                    <div class="col-lg-8">
-                        <div class="accordion" id="accordion-1704a76f-b672-4d07-966c-f6e12ea01f90" itemscope itemtype="https://schema.org/FAQPage">
-                                <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                    <h3 class="accordion-header" id="heading-collapse-f-f7950c30-16fb-4bcd-a7fd-544dd767e988">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-f-f7950c30-16fb-4bcd-a7fd-544dd767e988" aria-expanded="false" aria-controls="collapse-f-f7950c30-16fb-4bcd-a7fd-544dd767e988">
-                                            Emissions de gaz &#xE0; effet de serre
-                                            <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-down"></use></svg>
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-f-f7950c30-16fb-4bcd-a7fd-544dd767e988" class="accordion-collapse collapse " aria-labelledby="heading-collapse-f-f7950c30-16fb-4bcd-a7fd-544dd767e988" data-bs-parent="#accordion-1704a76f-b672-4d07-966c-f6e12ea01f90" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <div class="accordion-body" itemprop="text">
-                                            <p>Face à l'importance croissante de la lutte contre les émissions de gaz à effet de serre, nous communiquons davantage sur nos émissions et nos efforts pour les réduire, notamment en élaborant des méthodes de contrôle et de reporting de nos émissions de gaz à effet de serre.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                    <h3 class="accordion-header" id="heading-collapse-f-a9f1623d-0101-4dc8-a86b-a342aff932c8">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-f-a9f1623d-0101-4dc8-a86b-a342aff932c8" aria-expanded="false" aria-controls="collapse-f-a9f1623d-0101-4dc8-a86b-a342aff932c8">
-                                            Engagements climatiques
-                                            <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-down"></use></svg>
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-f-a9f1623d-0101-4dc8-a86b-a342aff932c8" class="accordion-collapse collapse " aria-labelledby="heading-collapse-f-a9f1623d-0101-4dc8-a86b-a342aff932c8" data-bs-parent="#accordion-1704a76f-b672-4d07-966c-f6e12ea01f90" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <div class="accordion-body" itemprop="text">
-                                            <p>Nous nous fixons des objectifs qui sont annoncés publiquement, avec un échéancier précis, en matière de réduction des émissions de gaz à effet de serre. Nous nous engageons à&nbsp;<a href="https://www.cognizant.com/en_us/about/documents/carbon-reduction-plan.pdf">atteindre le niveau de zéro émission nette d'ici 2050 </a>en privilégiant le recours aux énergies renouvelables et en réduisant toujours plus les émissions de gaz à effet de serre dans nos différentes activités.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                                    <h3 class="accordion-header" id="heading-collapse-f-a0f6e218-d2b6-4140-baef-75f84071990d">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-f-a0f6e218-d2b6-4140-baef-75f84071990d" aria-expanded="false" aria-controls="collapse-f-a0f6e218-d2b6-4140-baef-75f84071990d">
-                                            Pr&#xE9;servation de l&#x27;eau
-                                            <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-down"></use></svg>
-                                        </button>
-                                    </h3>
-                                    <div id="collapse-f-a0f6e218-d2b6-4140-baef-75f84071990d" class="accordion-collapse collapse " aria-labelledby="heading-collapse-f-a0f6e218-d2b6-4140-baef-75f84071990d" data-bs-parent="#accordion-1704a76f-b672-4d07-966c-f6e12ea01f90" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                                        <div class="accordion-body" itemprop="text">
-                                            <p>Nous sommes implantés partout dans le monde, y compris dans les régions soumises à un stress hydrique. Nous nous approvisionnons en eau de façon raisonnable et mettons en œuvre des solutions efficaces pour réduire notre consommation d'eau.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-    
-                </div>
-    
-            </div>
-        </section>
-    
-                    
-        <section class="section-carousel" >
-            <div class="container">
-    
-                
-    <div class="intro-heading row">
-        <div class="col-12 col-md-8">
-            
-            <h2 class="intro-heading-heading">Responsabilité sociétale</h2>
-            <p>Notre programme Outreach mobilise l'expertise et l'enthousiasme de nos collaborateurs à travers des programmes de volontariat. Nous nous efforçons de promouvoir l'inclusion dans la technologie et d'accélérer le développement dans tous les endroits où nous implantons.</p>
-    <p>Depuis sa création en 2007, plus de 215 000 collaborateurs se sont engagés dans des activités de volontariat pour 3,6 millions d'heures ! Découvrez l'impact de nos actions dans le monde entier :</p>
-        </div>
-    </div>
-    
-                <div class="swiper-carousel swiper">
-                    <div class="swiper-container">
-                            <div class="swiper-item">
-                                <div class="row align-items-center justify-content-center ">
-                                    <div class="slide-image col-md-6 fade-in-right">
-                                        <picture><source srcset="static/imgs/s4-cognizant-singapore-aws-recognition.webp" type="image/webp"><img alt="un groupe de personnes debout devant un &#xE9;cran de projection" class="img-fluid" height="450" loading="lazy" src="static/imgs/s4-cognizant-singapore-aws-recognition.webp" width="600"></picture>
-                                    </div>
-                                    <div class="slide-body col-md-6 fade-in-left">
-                                        <h3 class="slide-heading">Aider &#xE0; la diffusion du savoir autour de nous</h3>
-                                        <p class="slide-text">Partenariat avec AWS sur divers programmes de mentorat et de mont&#xE9;e en comp&#xE9;tences, proposant aux d&#xE9;butants de divers horizons des comp&#xE9;tences recherch&#xE9;es et un acc&#xE8;s &#xE0; une technologie de pointe. </p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-item">
-                                <div class="row align-items-center justify-content-center ">
-                                    <div class="slide-image col-md-6 fade-in-right">
-                                        <picture><source srcset="/media/bldhxj3n/s4-zurich-clean-up.jpg?width=600&amp;height=450&amp;v=1da804f0d5818e0&amp;width=600&amp;height=450&amp;rmode=crop&amp;format=webp&amp;quality=100" type="image/webp"><img alt="Un groupe de personnes v&#xEA;tues de gilets orange debout sur un trottoir &#xE0; c&#xF4;t&#xE9; d&#x2019;un plan d&#x2019;eau" class="img-fluid" height="450" loading="lazy" src="../../../media/bldhxj3n/s4-zurich-clean-upe91c.html?width=600&amp;height=450&amp;v=1da804f0d5818e0&amp;width=600&amp;height=450&amp;rmode=crop&amp;quality=100" width="600"></picture>
-                                    </div>
-                                    <div class="slide-body col-md-6 fade-in-left">
-                                        <h3 class="slide-heading">Nettoyer la ville</h3>
-                                        <p class="slide-text">Partenariat avec des associations de Zurich en Suisse, pour nettoyer la ville, pour un monde plus propre et plus vert&#xA0;!</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="swiper-navigation">
-                        <div class="swiper-buttons">
-                            
-    
-    <div class="swiper-button-prev">
-        <span class="visually-hidden">
-            Pr&#xE9;c&#xE9;dent
-        </span>
-        <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-left"></use></svg>
-    </div>
-    <div class="swiper-button-next">
-        <span class="visually-hidden">
-            Prochain
-        </span>
-        <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg?v=rW0hJiVCGuHiwPgnvKS9j3Qkj_mpGx48NebVErRtD-Q#arrow-right"></use></svg>
-    </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-                    
-            
-        <section class="cta-banner bg-mesh-3" >
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 scale-in">
-                        <h2 class="cta-banner-heading">Permettre à un million de travailleurs d'avoir une longueur d'avance sur le futur</h2>
-                        <p>Synapse, notre nouveau programme de mont&#xE9;e en comp&#xE9;tences, r&#xE9;volutionne et ouvre de nouvelles perspectives en mati&#xE8;re de formation aux technologies et de cr&#xE9;ation d&#x27;une main d&#x27;oeuvre qualifi&#xE9;e, en red&#xE9;finissant le champ des possibles. Notre objectif est de former un million de personnes aux nouvelles technologies, telles que l&#x27;IA, afin qu&#x27;elles soient mieux pr&#xE9;par&#xE9;es aux changements &#xE0; venir.</p>
-                        <a class="btn btn-primary js-cta-link" href="https://www.cognizant.com/us/en/about-cognizant/esg/synapse" target="_blank" rel="noopener" aria-label="En savoir plus (S&#x2019;ouvre dans une nouvelle fen&#xEA;tre)">En savoir plus
-    <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg#arrow-right"></use></svg>
-    </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-    
-                    
-        <section class="section-image " >
-            <div class="container">
-                <div class="row align-items-lg-center flex-row-reverse">
-                    <div class="col-md-6 col-lg-7 fade-in">
-                            <picture><source srcset="static/imgs/s6-esg-report-2022-cover-angled.webp" type="image/webp"><img alt="une couverture blanche et bleue avec le visage d&#x2019;une personne" class="img-fluid" height="500" loading="lazy" src="static/imgs/s6-esg-report-2022-cover-angled.webp" width="750"></picture>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <h2 class="rich-text-heading">Créer un changement significatif et à grande échelle</h2>
-    
-                        <div class="cms-content">
-                            <p>Découvrez comment nos objectifs environnementaux, sociaux et de gouvernance (ESG) influencent nos réflexions, décisions et actions.</p>
-                        </div>
-    
-                        <a class="btn btn-primary js-text-link" href="https://www.cognizant.com/en_us/about/documents/2022-esg-report.pdf" target="_blank" rel="noopener" aria-label="T&#xE9;l&#xE9;chargez notre rapport ESG&#xA0;2022 (S&#x2019;ouvre dans une nouvelle fen&#xEA;tre)">T&#xE9;l&#xE9;chargez notre rapport ESG&#xA0;2022
-    <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg#arrow-right"></use></svg>
-    </a>
                     </div>
                 </div>
             </div>
@@ -515,8 +409,8 @@
                         <h2 class="cta-banner-heading">Rejoignez notre communauté de talents</h2>
                         <p>Vous n&#x27;avez pas encore trouv&#xE9; la bonne opportunit&#xE9; ? Recevez les derni&#xE8;res offres d&#x27;emploi, les &#xE9;v&#xE9;nements de recrutement et les nouvelles de l&#x27;entreprise qui vous concernent particuli&#xE8;rement.</p>
                         <a class="btn btn-primary js-cta-link" href="https://talentacquisition.cognizant.com/flows/Talent-Community-EMEA-APACJ-Initial-fr" target="_blank" rel="noopener" aria-label="S&#x27;inscrire (S&#x2019;ouvre dans une nouvelle fen&#xEA;tre)">S&#x27;inscrire
-    <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg#arrow-right"></use></svg>
-    </a>
+                        <svg class="icon-sprite" aria-hidden="true"><use xlink:href="https://careers.cognizant.com/images/sprite.svg#arrow-right"></use></svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -524,9 +418,6 @@
     
     
     </div>
-    
-    
-        
     
     </main>
 
